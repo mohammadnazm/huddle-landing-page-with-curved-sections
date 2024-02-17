@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.white-logo {
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(126deg) brightness(104%) contrast(101%);
+    transition: .3s;
+}
+
+.white-logo:hover {
+    filter: invert(56%) sepia(49%) saturate(2391%) hue-rotate(154deg) brightness(102%) contrast(103%);
+}
